@@ -97,14 +97,14 @@
 </code></pre>
 </li>
 <li>
-<p>Bygg och kör backend med Maven (du måste ha Java och Maven installerat):</p>
+<p>Du kan öppna mappen backend i din IDE köra det därifrån eller Bygger du och kör backend med Maven i kommandotolken (du måste ha Java och Maven installerat):</p>
 <pre class=" language-bash"><code class="prism  language-bash">mvn clean package
 java -jar target/laxstuga-0.0.1-SNAPSHOT.jar
 </code></pre>
 </li>
 </ol>
 <p>Backend kommer nu att köra på <a href="http://localhost:8081">http://localhost:8081</a>.</p><br>
-<p>Alternativt kan du öppna backend mappen i din IDE och köra projektet där.</p>
+
 <h4 id="frontend">Frontend</h4>
 <ol>
 <li>
