@@ -124,7 +124,7 @@ java -jar target/laxstuga-0.0.1-SNAPSHOT.jar
 </ol>
 <p>Frontend kommer nu att köra på <a href="http://localhost:8080">http://localhost:8080</a>.</p>
 <h2 id="api-dokumentation">API-dokumentation</h2>
-<p>Backend tillhandahåller ett REST API som gör det möjligt att interagera med all data. <br> För att se alla anrop som går att göra hänvisar jag till Swagger. <br>Som du kommer åt när du kör applikationen. <br> <strong>Swagger UI:</strong> <a href="http://localhost:8081/swagger-ui.html">http://localhost:8081/swagger-ui.html</a>
+<p>Backend tillhandahåller ett REST API som möjliggör interaktion med all applikationens data. För en fullständig lista över tillgängliga anrop och deras parametrar används Swagger. När applikationen körs lokalt kan Swagger UI nås på <br> <strong>Swagger UI:</strong> <a href="http://localhost:8081/swagger-ui.html">http://localhost:8081/swagger-ui.html</a>
 
 <h2 id="vanliga-problem-och-felsökning">Vanliga problem och felsökning</h2>
 <h3 id="problem-port-already-in-use">Problem: “Port already in use”</h3>
