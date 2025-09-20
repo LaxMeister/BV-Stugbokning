@@ -67,7 +67,7 @@
 <ul>
 <li>Detta kommando kommer att bygga frontend och backend från grunden.</li>
 <li>När detta är klart kan du öppna webbläsaren och besöka <a href="http://localhost">http://localhost:8082</a> för att se frontend.</li>
-<li>Backend-API:n körs på <a href="http://localhost:8081">http://localhost:8080</a>.</li>
+<li>Backend-API:n körs på <a href="http://localhost:8081">http://localhost:8081</a>.</li>
 </ul>
 <h4 id="kontrollera-att-applikationen-körs">3. Kontrollera att applikationen körs</h4>
 <p>När applikationen har startat kan du öppna din webbläsare och gå till:</p>
