@@ -19,8 +19,8 @@
 <h2 id="projektets-struktur">Projektets struktur</h2>
 <p>Applikationen är uppdelad i två huvuddelar:</p>
 <ol>
-<li><strong>Frontend</strong> - Användargränssnittet som körs i webbläsaren. Byggt med Vue.js och hanteras av <strong>Nginx</strong> i produktionsmiljö.</li>
-<li><strong>Backend</strong> - API och datalogik som hanteras av Spring Boot med Java. Det hanterar alla API-anrop för att skapa, uppdatera, radera och visa stugor/användare.</li>
+<li><strong>Frontend</strong> - Användargränssnittet som körs i webbläsaren. Byggt med Vue.js och serveras via Nginx i produktionsmiljö.</li>
+<li><strong>Backend</strong> - API och affärslogik implementerad med Spring Boot och Java. Den ansvarar för alla operationer för att skapa, uppdatera, radera och visa stugor och användare.</li>
 </ol>
 <p>Projektets struktur ser ut så här:</p>
 <pre><code>bolagsverket-arbetsprov/
