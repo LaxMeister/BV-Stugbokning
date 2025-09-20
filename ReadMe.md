@@ -20,7 +20,7 @@
 <p>Applikationen är uppdelad i två huvuddelar:</p>
 <ol>
 <li><strong>Frontend</strong> - Användargränssnittet som körs i webbläsaren. Byggt med Vue.js och hanteras av <strong>Nginx</strong> i produktionsmiljö.</li>
-<li><strong>Backend</strong> - API och datalogik som hanteras av Spring Boot med Java. Det hanterar alla API-anrop för att skapa, uppdatera, radera och visa användare.</li>
+<li><strong>Backend</strong> - API och datalogik som hanteras av Spring Boot med Java. Det hanterar alla API-anrop för att skapa, uppdatera, radera och visa stugor/användare.</li>
 </ol>
 <p>Projektets struktur ser ut så här:</p>
 <pre><code>bolagsverket-arbetsprov/
