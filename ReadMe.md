@@ -87,7 +87,7 @@
 <p>För att stänga ner applikationen, tryck <code>CTRL + C</code> i terminalen där Docker Compose körs. Du kan också stänga ner alla Docker-containrar med:</p>
 <pre class=" language-bash"><code class="prism  language-bash">docker-compose down
 </code></pre>
-<h3 id="köra-frontend-och-backend-lokalt">Köra frontend och backend lokalt</h3>
+<h3 id="köra-frontend-och-backend-lokalt">Köra frontend och backend utan docker</h3>
 <p>Om du föredrar att köra frontend och backend utan Docker kan du göra det med följande steg:</p>
 <h4 id="backend">Backend</h4>
 <ol>
@@ -103,7 +103,8 @@ java -jar target/laxstuga-0.0.1-SNAPSHOT.jar
 </code></pre>
 </li>
 </ol>
-<p>Backend kommer nu att köra på <a href="http://localhost:8081">http://localhost:8081</a>.</p>
+<p>Backend kommer nu att köra på <a href="http://localhost:8081">http://localhost:8081</a>.</p><br>
+<p>Alternativt kan du öppna backend mappen i din IDE och köra projektet där.</p>
 <h4 id="frontend">Frontend</h4>
 <ol>
 <li>
