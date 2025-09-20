@@ -88,16 +88,17 @@
 <pre class=" language-bash"><code class="prism  language-bash">docker-compose down
 </code></pre>
 <h3 id="köra-frontend-och-backend-lokalt">Köra frontend och backend utan docker</h3>
-<p>Om du föredrar att köra frontend och backend utan Docker kan du göra det med följande steg:</p>
+<p>Om du föredrar att köra frontend och backend utan Docker kan du göra det med följande:</p>
 <h4 id="backend">Backend</h4>
 <ol>
+<p>Du kan öppna mappen backend i din IDE köra det därifrån eller Bygger du och kör backend med Maven i kommandotolken (du måste ha Java och Maven installerat) på detta sätt:</p>
 <li>
 <p>Gå till backend-katalogen:</p>
 <pre class=" language-bash"><code class="prism  language-bash"><span class="token function">cd</span> backend
 </code></pre>
 </li>
 <li>
-<p>Du kan öppna mappen backend i din IDE köra det därifrån eller Bygger du och kör backend med Maven i kommandotolken (du måste ha Java och Maven installerat):</p>
+<p>Kör detta kommando i kommandotolken (du måste ha Java och Maven installerat):</p>
 <pre class=" language-bash"><code class="prism  language-bash">mvn clean package
 java -jar target/laxstuga-0.0.1-SNAPSHOT.jar
 </code></pre>
