@@ -8,7 +8,7 @@
 <li><a href="#installation-och-k%C3%B6rning">Installation och körning</a>
 <ol>
 <li><a href="#anv%C3%A4nda-docker">Använda Docker</a></li>
-<li><a href="#k%C3%B6ra-frontend-och-backend-lokalt">Köra frontend och backend lokalt</a></li>
+<li><a href="#k%C3%B6ra-frontend-och-backend-lokalt">Köra frontend och backend utan Docker</a></li>
 </ol>
 </li>
 <li><a href="#api-dokumentation">API-dokumentation</a></li>
